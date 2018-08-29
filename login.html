@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>管理员登录页面</title>
+    <script type='text/javascript' src='admin/js/jquery-1.11.1.min.js'></script>
+    <script type='text/javascript' src='admin/js/jquery.particleground.min.js'></script>
+    <link rel="stylesheet" href="admin/css/style.css" />
+    <link rel="stylesheet" href="admin/css/main.css" />
+    <script type='text/javascript' src='admin/js/demo.js'></script>
+</head>
+<body>
+
+<div id="particles">    
+    <div class="intro">
+        <form class="formlist" action="login.php" method="post">
+            <input class="tianxie" type="text" placeholder="用户名" name="adminName" value=""><br>
+            <input class="tianxie" type="password" placeholder="密码" name="password" value=""><br>    
+          
+            <input class="submit" type="submit" value="登录"><br>
+            <input class="submit" type="reset" value="重置信息"><br>
+        </form>
+        
+    </div>
+</div>
+</body>
+<script>
+    $(document).ready(function(){
+        $('#particles').particleground();
+        $('#your-element').particleground({
+            dotColor: '#ffffff',
+            lineColor: '#ffffff'
+        });
+    })
+</script>
+</html>

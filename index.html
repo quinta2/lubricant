@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <title></title>
+    <script src="js/mui.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.css">
+    <link href="css/mui.min.css" rel="stylesheet"/>
+    <link href="css/main.css" rel="stylesheet"/>
+    <script type="text/javascript" charset="utf-8">
+      	mui.init();
+    </script>
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/main.js" type="text/javascript"></script>
+</head>
+<body class="yunxing">
+	<div class="body">
+		<div class="header">
+			<h1>为您的爱车选油</h1>
+			<p>告诉我们您爱车的信息，我们将为您推荐最合适的润滑油</p>
+			<hr>
+		</div>
+		<div class="mainbody" style="margin-top: 20px;">
+			<form>
+				<label for="male">类型</label><br />
+				<div class="import">
+					<select id="select" name="" class="choose">
+				        <option value="选择类型" selected>选择类型</option>
+				        <option value="SUV">SUV</option>
+				        <option value="豪华车">豪华车</option>
+				        <option value="跑车">跑车</option>
+				        <option value="中大型车">中大型车</option>
+				        <option value="紧凑型车">紧凑型车</option>
+				        <option value="中型车">中型车</option>
+				        <option value="小型车">小型车</option>
+				        <option value="面包车">面包车</option>
+				        <option value="微型车">微型车</option>
+				        <option value="MPV">MPV</option>
+				        <option value="皮卡">皮卡</option>
+				        <option value="其他">其他</option>
+				    </select>
+				    <span class="fa fa-caret-down"></span>
+				</div>
+				<label for="male">品牌</label><br />
+				<div class="import">
+					<select id="select" name="" class="choosebrand">
+				        <option value="选择品牌" selected>选择品牌</option>
+				    </select>
+				    <span class="fa fa-caret-down"></span>
+				</div>
+				<label for="male">车型</label><br />
+				<div class="import">
+					<select id="select" name="" class="choosemotrocycle">
+				        <option value="选择车型" selected>选择车型</option>
+				    </select>
+				    <span class="fa fa-caret-down"></span>
+				</div>
+				<label for="male">排量</label><br />
+				<div class="import">
+					<select id="select" name="" class="choosedisplacement">
+				        <option value="选择排量" selected>选择排量</option>
+				    </select>
+				    <span class="fa fa-caret-down"></span>
+				</div>
+				<label for="male">年份</label><br />
+				<div class="import">
+					<select id="select" name="" class="chooseyear">
+				        <option value="选择年份" selected>选择年份</option>
+				    </select>
+				    <span class="fa fa-caret-down"></span>
+				</div>
+				<label for="male">省份</label><br />
+				<div class="import">
+					<select id="select" name="" class="chooseprovence">
+				        <option value="选择省份" selected>选择省份</option>
+				        <!-- <option value="北京" selected>北京</option>
+				        <option value="天津" selected>天津</option>
+				        <option value="河北" selected>河北</option>
+				        <option value="山西" selected>山西</option>
+				        <option value="内蒙古" selected>内蒙古</option>
+				        <option value="辽宁" selected>辽宁</option>
+				        <option value="吉林" selected>吉林</option>
+				        <option value="黑龙江" selected>黑龙江</option>
+				        <option value="上海" selected>上海</option>
+				        <option value="江苏" selected>江苏</option>
+				        <option value="浙江" selected>浙江</option>
+				        <option value="安徽" selected>安徽</option>
+				        <option value="福建" selected>福建</option>
+				        <option value="山西" selected>山西</option>
+				        <option value="山东" selected>山东</option>
+				        <option value="河南" selected>河南</option>
+				        <option value="湖北" selected>湖北</option>
+				        <option value="湖南" selected>湖南</option>
+				        <option value="广东" selected>广东</option>
+				        <option value="广西" selected>广西</option>
+				        <option value="海南" selected>海南</option>
+				        <option value="重庆" selected>重庆</option>
+				        <option value="四川" selected>四川</option>
+				        <option value="贵州" selected>贵州</option>
+				        <option value="云南" selected>云南</option>
+				        <option value="西藏" selected>西藏</option>
+				        <option value="陕西" selected>陕西</option>
+				        <option value="甘肃" selected>甘肃</option>
+				        <option value="青海" selected>青海</option>
+				        <option value="宁夏" selected>宁夏</option>
+				        <option value="新疆" selected>新疆</option>
+				        <option value="台湾" selected>台湾</option>
+				        <option value="澳门" selected>澳门</option>
+				        <option value="香港" selected>香港</option>
+				        <option value="钓鱼岛" selected>钓鱼岛</option> -->
+				    </select>
+				    <span class="fa fa-caret-down"></span>
+				</div>
+				<label for="male">城市</label><br />
+				<div class="import">
+					<select id="select" name="" class="choosecity">
+				        <option value="" selected>选择城市</option>
+				    </select>
+				    <span class="fa fa-caret-down"></span>
+				</div>
+				<label for="male">频率</label><br />
+				<div class="import">
+					<select id="select" name="" class="choosefrequncy">
+				        <option value="选择频率" selected>请选择</option>
+				        <option value="选择频率">在城市中，把爱车作为代步工具使用，属于普通型驾驶者</option>
+				        <option value="选择频率">经常低速短途行驶，属于短途型驾驶者</option>
+				        <option value="选择频率">经常高速长途行驶，属于长途型驾驶者</option>
+				        <option value="选择频率">经常越野颠簸行驶，属于越野达人型驾驶者</option>
+				    </select>
+				    <span class="fa fa-caret-down"></span>
+				</div>
+				<input class="submit" type="button" value="搜索" style="color: #666666;border: 1px solid #888888;border-radius: 8px;"/>
+			</form>
+		</div>
+		<div class="footer">
+			
+		</div>
+	</div>
+</body>
+</html>

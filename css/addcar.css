@@ -1,0 +1,63 @@
+ul,li{
+	list-style: none;
+}
+.addlist{
+	width: 90%;
+	height: 100%
+}
+.addlist>form>div{	
+	text-align: right;
+	margin: 20px;
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+}
+.orderDetail{
+	width: 800px;
+	margin: 0px auto;
+}
+.orderlist ul li{
+	margin-bottom: 20px;
+	width: 300px;
+}
+.orderlist ul li span{
+	width:100px;
+	padding-left: 20px;
+	height: 24px;
+	line-height: 24px;
+	background-color: #edf2f3；
+	border-bottom:1px solid #00b8d2;
+}
+.addlist>form>div>input{
+	margin-right: 930px;
+	float: right;
+	text-align: left;
+	border: none;
+	border-bottom: 1px solid #00b8d2;
+	background: #edf2f3;
+	width: 200px;
+	height: 32px;
+	vertical-align: center;
+}
+
+.addlist>form>input{
+	display: block;
+	margin: 20px 50px;
+	width: 80px;
+	text-align: center;
+	height: 32px;
+	line-height: 32px;
+	
+}
+.addlist > form > form{	
+	display: block;
+	margin-left: 30px;
+}
+.addlist > form > form > input:last-child{
+	display: block;	
+	margin: 20px 50px;
+	width: 50px;
+	text-align: center;
+	height: 32px;
+	vertical-align: center;
+}
